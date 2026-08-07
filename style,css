@@ -957,8 +957,88 @@ TEXT SELECTION
 background:#00AEEF;
 color:#fff;
 }
+/* ===============================
+FIX EXISTING HTML CLASSES
+=============================== */
 
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.logo h2{
+color:#fff;
+font-size:28px;
+font-weight:700;
+}
+
+.logo i{
+font-size:38px;
+color:var(--secondary);
+}
+
+.about-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:60px;
+align-items:center;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.feature{
+background:#fff;
+padding:30px;
+text-align:center;
+border-radius:15px;
+box-shadow:var(--shadow);
+transition:.3s;
+}
+
+.feature:hover{
+transform:translateY(-8px);
+}
+
+.feature i{
+font-size:45px;
+color:var(--secondary);
+margin-bottom:15px;
+}
+
+.feature h4{
+color:var(--primary);
+font-size:20px;
+}
+
+.hero{
+margin-top:90px;
+}
+
+footer ul{
+padding:0;
+}
+
+footer li{
+list-style:none;
+margin-bottom:10px;
+}
+
+footer a{
+color:#ddd;
+}
+
+footer a:hover{
+color:var(--secondary);
+}
 /*=====================================
 END
 Designed by Hlaks Web Wonders
 =====================================*/
+
+
